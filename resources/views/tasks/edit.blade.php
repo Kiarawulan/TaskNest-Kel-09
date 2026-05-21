@@ -48,7 +48,7 @@
         </div>
         <div class="flex justify-end gap-2 mt-2">
             <a href="/dashboard" class="px-4 py-2 text-sm text-gray-500 border border-gray-200 rounded-lg hover:bg-gray-50">Batal</a>
-            <button class="px-4 py-2 text-sm bg-rose-400 text-white rounded-lg hover:bg-rose-500 transition">Rubah Tugas</button>
+            <button class="px-4 py-2 text-sm bg-rose-400 text-white rounded-lg hover:bg-rose-500 transition">Ubah Tugas</button>
         </div>
     </form>
 </div>

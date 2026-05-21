@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder
     {
         $user = User::create([
             'username' => 'Demo User',
-            'email'    => 'demo@tasknest.com',
+            'email'    => 'demo@tasknet.com',
             'password' => Hash::make('password'),
         ]);
 
@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
         }
 
         Task::create([
-            'title'       => 'Desain sistem TaskNest',
+            'title'       => 'Desain sistem TaskNet',
             'description' => 'Buat wireframe dan prototype aplikasi.',
             'due_date'    => now()->addDays(3)->toDateString(),
             'status'      => 'belum selesai',

@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Login - TaskNest</title>
+    <title>Login - TaskNet</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-rose-100 min-h-screen flex items-center justify-center">

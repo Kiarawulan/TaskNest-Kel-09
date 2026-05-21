@@ -3,7 +3,7 @@
         <div class="w-8 h-8 bg-rose-400 rounded-full flex items-center justify-center">
             <i class="fa-solid fa-check text-white text-sm"></i>
         </div>
-        <span class="font-semibold text-gray-800">TaskNest</span>
+        <span class="font-semibold text-gray-800">TaskNet</span>
         <span class="text-xs text-gray-400 ml-auto">Stay productive!</span>
     </div>
 

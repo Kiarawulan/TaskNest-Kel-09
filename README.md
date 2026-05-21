@@ -1,4 +1,4 @@
-# TaskNest — To-Do App with Categories
+# TaskNet — To-Do App with Categories
 
 Aplikasi manajemen tugas berbasis web, dibangun dengan Laravel + MySQL + Tailwind CSS.
 
@@ -6,7 +6,7 @@ Aplikasi manajemen tugas berbasis web, dibangun dengan Laravel + MySQL + Tailwin
 
 ### 1. Taruh folder ini ke dalam project Laravel yang sudah ada, ATAU install Laravel dulu:
 ```bash
-composer create-project laravel/laravel tasknest-app
+composer create-project laravel/laravel tasknet-app
 ```
 Lalu copy isi folder ini ke dalam project Laravel tersebut.
 
@@ -18,14 +18,14 @@ php artisan key:generate
 
 ### 3. Sesuaikan database di .env
 ```
-DB_DATABASE=tasknest
+DB_DATABASE=tasknet
 DB_USERNAME=root
 DB_PASSWORD=your_password
 ```
 
 ### 4. Buat database MySQL
 ```sql
-CREATE DATABASE tasknest CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE tasknet CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
 ### 5. Jalankan migration & seeder
@@ -42,7 +42,7 @@ php artisan serve
 Buka http://localhost:8000
 
 ## Akun Demo (setelah db:seed)
-- Email: demo@tasknest.com
+- Email: demo@tasknet.com
 - Password: password
 
 ## Tech Stack
