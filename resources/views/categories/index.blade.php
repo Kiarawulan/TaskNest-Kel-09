@@ -10,6 +10,10 @@
     <div class="mb-4 bg-green-100 text-green-800 px-4 py-2 rounded-lg text-sm">{{ session('success') }}</div>
 @endif
 
+@if($errors->any())
+    <div class="mb-4 bg-red-100 text-red-800 px-4 py-2 rounded-lg text-sm">{{ $errors->first() }}</div>
+@endif
+
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
     <!-- Add new -->
     <div x-data="{ open: false }">
@@ -39,7 +43,7 @@
             <a href="/dashboard?category={{ $cat->id_category }}"
                class="text-xs text-rose-400 hover:underline">Lihat tugas →</a>
             <form method="POST" action="/categories/{{ $cat->id_category }}"
-                  onsubmit="return confirm('Hapus kategori ini? Semua tugas di dalamnya juga terhapus.')">
+                  onsubmit="return confirm('Apakah Anda yakin ingin menghapus kategori ini?')">
                 @csrf @method('DELETE')
                 <button class="text-xs text-gray-300 hover:text-red-400 transition">Hapus</button>
             </form>

@@ -23,6 +23,12 @@ class CategoryController extends Controller
     public function destroy(Category $category)
     {
         abort_if($category->user_id !== Auth::id(), 403);
+
+        // Validasi relasi: Cek apakah masih digunakan oleh tugas lain
+        if ($category->tasks()->exists()) {
+            return back()->withErrors(['error' => 'Kategori tidak dapat dihapus karena masih digunakan oleh tugas lain.']);
+        }
+
         $category->delete();
         return back()->with('success', 'Kategori berhasil dihapus!');
     }
