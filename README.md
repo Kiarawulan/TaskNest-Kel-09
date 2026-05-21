@@ -60,3 +60,9 @@ Buka http://localhost:8000
 - Tandai tugas selesai/belum selesai
 - Manajemen kategori
 - Search tugas
+
+# Kelompok 9
+- Rakha Aljiva Prabaswara			21120124140126
+- Mayo Pinto Denai 				    21120124140133
+- Josh Peter Sirait 				21120124140155
+- Kiara Wulan Turnauli M			21120124140162
